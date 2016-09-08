@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55EC5D7520CDCD5D022362142F7B896A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6452028973A4C722A034E8A6DDB2096C /* Pods-Pokemon Quiz'Em All-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 136C8C8684E290D327E4EF94FBC06470 /* Pods-Pokemon Quiz'Em All-dummy.m */; };
+		F670347A9F4FE02A26B1BAF35C28133E /* Pods-Pokemon Quiz'Em All-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9F0C2A166E384EA641E98C3E08AA50 /* Pods-Pokemon Quiz'Em All-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		136C8C8684E290D327E4EF94FBC06470 /* Pods-Pokemon Quiz'Em All-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pokemon Quiz'Em All-dummy.m"; sourceTree = "<group>"; };
+		2CF96E93386038972B8C6523D43A0AA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388F92F9D45E2E3DC6A1D27A7B4B5A1A /* Pods-Pokemon Quiz'Em All-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokemon Quiz'Em All-frameworks.sh"; sourceTree = "<group>"; };
+		390B271BF01D6D185C501847716E5591 /* Pods-Pokemon Quiz'Em All.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon Quiz'Em All.debug.xcconfig"; sourceTree = "<group>"; };
+		77210F87D8A444F66A5F4B635EFFDA8B /* Pods-Pokemon Quiz'Em All-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokemon Quiz'Em All-resources.sh"; sourceTree = "<group>"; };
+		7E917F913B48E92C22ACDC55A8F26CBA /* Pods-Pokemon Quiz'Em All-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pokemon Quiz'Em All-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE8D51A95C8A3FC6D310EE0514ED1A4 /* Pods-Pokemon Quiz'Em All.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pokemon Quiz'Em All.modulemap"; sourceTree = "<group>"; };
+		9D9F0C2A166E384EA641E98C3E08AA50 /* Pods-Pokemon Quiz'Em All-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pokemon Quiz'Em All-umbrella.h"; sourceTree = "<group>"; };
+		BE4FE6F15AACCBA85FBAE6BC4325D073 /* Pods-Pokemon Quiz'Em All-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokemon Quiz'Em All-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D656B84FE808FD3ED415B00615F105C2 /* Pods-Pokemon Quiz'Em All.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon Quiz'Em All.release.xcconfig"; sourceTree = "<group>"; };
+		DB58C3AD0A103A08F0986682061F7EA8 /* Pods_Pokemon_Quiz_Em_All.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_Quiz_Em_All.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D402EB12C14BE6B4A342A2B9F18C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55EC5D7520CDCD5D022362142F7B896A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DBFF37E0B0CB4D5A134C76DA92F6752 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13C3E1A11353E846997A23006F4D1321 /* Pods-Pokemon Quiz'Em All */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		13C3E1A11353E846997A23006F4D1321 /* Pods-Pokemon Quiz'Em All */ = {
+			isa = PBXGroup;
+			children = (
+				2CF96E93386038972B8C6523D43A0AA2 /* Info.plist */,
+				9BE8D51A95C8A3FC6D310EE0514ED1A4 /* Pods-Pokemon Quiz'Em All.modulemap */,
+				7E917F913B48E92C22ACDC55A8F26CBA /* Pods-Pokemon Quiz'Em All-acknowledgements.markdown */,
+				BE4FE6F15AACCBA85FBAE6BC4325D073 /* Pods-Pokemon Quiz'Em All-acknowledgements.plist */,
+				136C8C8684E290D327E4EF94FBC06470 /* Pods-Pokemon Quiz'Em All-dummy.m */,
+				388F92F9D45E2E3DC6A1D27A7B4B5A1A /* Pods-Pokemon Quiz'Em All-frameworks.sh */,
+				77210F87D8A444F66A5F4B635EFFDA8B /* Pods-Pokemon Quiz'Em All-resources.sh */,
+				9D9F0C2A166E384EA641E98C3E08AA50 /* Pods-Pokemon Quiz'Em All-umbrella.h */,
+				390B271BF01D6D185C501847716E5591 /* Pods-Pokemon Quiz'Em All.debug.xcconfig */,
+				D656B84FE808FD3ED415B00615F105C2 /* Pods-Pokemon Quiz'Em All.release.xcconfig */,
+			);
+			name = "Pods-Pokemon Quiz'Em All";
+			path = "Target Support Files/Pods-Pokemon Quiz'Em All";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68BE7547A5173504917B8567560583CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB58C3AD0A103A08F0986682061F7EA8 /* Pods_Pokemon_Quiz_Em_All.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				68BE7547A5173504917B8567560583CC /* Products */,
+				0DBFF37E0B0CB4D5A134C76DA92F6752 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4307809C63578F584E4FF3ED5580142D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F670347A9F4FE02A26B1BAF35C28133E /* Pods-Pokemon Quiz'Em All-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B2F22B5B10603CDA141AB5BD932A439 /* Pods-Pokemon Quiz'Em All */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7864D6B3825E7A1CA736B0E1D16DFCDD /* Build configuration list for PBXNativeTarget "Pods-Pokemon Quiz'Em All" */;
+			buildPhases = (
+				FCCE8D01AD2081169757AF17F8A8D7AB /* Sources */,
+				08D402EB12C14BE6B4A342A2B9F18C78 /* Frameworks */,
+				4307809C63578F584E4FF3ED5580142D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pokemon Quiz'Em All";
+			productName = "Pods-Pokemon Quiz'Em All";
+			productReference = DB58C3AD0A103A08F0986682061F7EA8 /* Pods_Pokemon_Quiz_Em_All.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 68BE7547A5173504917B8567560583CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2F22B5B10603CDA141AB5BD932A439 /* Pods-Pokemon Quiz'Em All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCE8D01AD2081169757AF17F8A8D7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6452028973A4C722A034E8A6DDB2096C /* Pods-Pokemon Quiz'Em All-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE1303B2FF8F262B94B63BB1E1D7BFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D656B84FE808FD3ED415B00615F105C2 /* Pods-Pokemon Quiz'Em All.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pokemon Quiz'Em All/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pokemon Quiz'Em All/Pods-Pokemon Quiz'Em All.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pokemon_Quiz_Em_All;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F72C16C0041BFD4880A86B5CC5E32CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390B271BF01D6D185C501847716E5591 /* Pods-Pokemon Quiz'Em All.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pokemon Quiz'Em All/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pokemon Quiz'Em All/Pods-Pokemon Quiz'Em All.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pokemon_Quiz_Em_All;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7864D6B3825E7A1CA736B0E1D16DFCDD /* Build configuration list for PBXNativeTarget "Pods-Pokemon Quiz'Em All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72C16C0041BFD4880A86B5CC5E32CAF /* Debug */,
+				AE1303B2FF8F262B94B63BB1E1D7BFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

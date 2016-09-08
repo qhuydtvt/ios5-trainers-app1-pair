@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210BCB75C9DDAF8102875D11 /* Pods_Pokemon_Quiz_Em_All.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3ABEC30262770B0625ADB0 /* Pods_Pokemon_Quiz_Em_All.framework */; };
 		E108D77B1D8103D200C411A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D77A1D8103D200C411A6 /* AppDelegate.swift */; };
-		E108D77D1D8103D200C411A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D77C1D8103D200C411A6 /* ViewController.swift */; };
 		E108D7801D8103D300C411A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108D77E1D8103D300C411A6 /* Main.storyboard */; };
 		E108D7821D8103D300C411A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E108D7811D8103D300C411A6 /* Assets.xcassets */; };
 		E108D7851D8103D300C411A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E108D7831D8103D300C411A6 /* LaunchScreen.storyboard */; };
@@ -17,16 +17,17 @@
 		E108D7981D810FF700C411A6 /* 8-Bit-Mayhem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E108D7921D810FF600C411A6 /* 8-Bit-Mayhem.mp3 */; };
 		E108D7991D810FF700C411A6 /* firered_00A3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E108D7931D810FF700C411A6 /* firered_00A3.wav */; };
 		E108D79A1D810FF700C411A6 /* firered_00FA.wav in Resources */ = {isa = PBXBuildFile; fileRef = E108D7941D810FF700C411A6 /* firered_00FA.wav */; };
-		E108D79B1D810FF700C411A6 /* Quirky-Puzzle-Game-Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E108D7951D810FF700C411A6 /* Quirky-Puzzle-Game-Menu.mp3 */; };
 		E108D79C1D810FF700C411A6 /* UIClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = E108D7961D810FF700C411A6 /* UIClick.wav */; };
 		E108D79D1D810FF700C411A6 /* UIToggle.wav in Resources */ = {isa = PBXBuildFile; fileRef = E108D7971D810FF700C411A6 /* UIToggle.wav */; };
 		E108D7A21D81100800C411A6 /* pokemon.db in Resources */ = {isa = PBXBuildFile; fileRef = E108D7A01D81100800C411A6 /* pokemon.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7ADDA4A0957E970479EDC526 /* Pods-Pokemon Quiz'Em All.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon Quiz'Em All.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokemon Quiz'Em All/Pods-Pokemon Quiz'Em All.debug.xcconfig"; sourceTree = "<group>"; };
+		8B3ABEC30262770B0625ADB0 /* Pods_Pokemon_Quiz_Em_All.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_Quiz_Em_All.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7570355B987A5953539CC53 /* Pods-Pokemon Quiz'Em All.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon Quiz'Em All.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokemon Quiz'Em All/Pods-Pokemon Quiz'Em All.release.xcconfig"; sourceTree = "<group>"; };
 		E108D7771D8103D200C411A6 /* Pokemon Quiz'Em All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Quiz'Em All.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E108D77A1D8103D200C411A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E108D77C1D8103D200C411A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E108D77F1D8103D300C411A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E108D7811D8103D300C411A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E108D7841D8103D300C411A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		E108D7921D810FF600C411A6 /* 8-Bit-Mayhem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "8-Bit-Mayhem.mp3"; sourceTree = "<group>"; };
 		E108D7931D810FF700C411A6 /* firered_00A3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = firered_00A3.wav; sourceTree = "<group>"; };
 		E108D7941D810FF700C411A6 /* firered_00FA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = firered_00FA.wav; sourceTree = "<group>"; };
-		E108D7951D810FF700C411A6 /* Quirky-Puzzle-Game-Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quirky-Puzzle-Game-Menu.mp3"; sourceTree = "<group>"; };
 		E108D7961D810FF700C411A6 /* UIClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = UIClick.wav; sourceTree = "<group>"; };
 		E108D7971D810FF700C411A6 /* UIToggle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = UIToggle.wav; sourceTree = "<group>"; };
 		E108D7A01D81100800C411A6 /* pokemon.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.db; sourceTree = "<group>"; };
@@ -47,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210BCB75C9DDAF8102875D11 /* Pods_Pokemon_Quiz_Em_All.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		893301040F1992D2A2548675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B3ABEC30262770B0625ADB0 /* Pods_Pokemon_Quiz_Em_All.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E108D76E1D8103D200C411A6 = {
 			isa = PBXGroup;
 			children = (
 				E108D7791D8103D200C411A6 /* Pokemon Quiz'Em All */,
 				E108D7781D8103D200C411A6 /* Products */,
+				FD43FC7FD6E3EF8C0E0AF36A /* Pods */,
+				893301040F1992D2A2548675 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +83,9 @@
 		E108D7791D8103D200C411A6 /* Pokemon Quiz'Em All */ = {
 			isa = PBXGroup;
 			children = (
+				E108D7A41D8112E400C411A6 /* ViewController */,
+				E108D7A31D81129300C411A6 /* Database */,
 				E108D77A1D8103D200C411A6 /* AppDelegate.swift */,
-				E108D77C1D8103D200C411A6 /* ViewController.swift */,
 				E108D77E1D8103D300C411A6 /* Main.storyboard */,
 				E108D7811D8103D300C411A6 /* Assets.xcassets */,
 				E108D79E1D81100800C411A6 /* Database */,
@@ -100,7 +112,6 @@
 				E108D7921D810FF600C411A6 /* 8-Bit-Mayhem.mp3 */,
 				E108D7931D810FF700C411A6 /* firered_00A3.wav */,
 				E108D7941D810FF700C411A6 /* firered_00FA.wav */,
-				E108D7951D810FF700C411A6 /* Quirky-Puzzle-Game-Menu.mp3 */,
 				E108D7961D810FF700C411A6 /* UIClick.wav */,
 				E108D7971D810FF700C411A6 /* UIToggle.wav */,
 			);
@@ -115,6 +126,29 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
+		E108D7A31D81129300C411A6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		E108D7A41D8112E400C411A6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FD43FC7FD6E3EF8C0E0AF36A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ADDA4A0957E970479EDC526 /* Pods-Pokemon Quiz'Em All.debug.xcconfig */,
+				B7570355B987A5953539CC53 /* Pods-Pokemon Quiz'Em All.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E108D7891D8103D300C411A6 /* Build configuration list for PBXNativeTarget "Pokemon Quiz'Em All" */;
 			buildPhases = (
+				66DEA95E2E65C89645C99465 /* [CP] Check Pods Manifest.lock */,
 				E108D7731D8103D200C411A6 /* Sources */,
 				E108D7741D8103D200C411A6 /* Frameworks */,
 				E108D7751D8103D200C411A6 /* Resources */,
+				4D6B134ED4D4469825EEB3D0 /* [CP] Embed Pods Frameworks */,
+				E34C8EB34E5711966E9EA83D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,19 +221,65 @@
 				E108D7981D810FF700C411A6 /* 8-Bit-Mayhem.mp3 in Resources */,
 				E108D7901D810FD200C411A6 /* StencilStd.otf in Resources */,
 				E108D7821D8103D300C411A6 /* Assets.xcassets in Resources */,
-				E108D79B1D810FF700C411A6 /* Quirky-Puzzle-Game-Menu.mp3 in Resources */,
 				E108D7801D8103D300C411A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D6B134ED4D4469825EEB3D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pokemon Quiz'Em All/Pods-Pokemon Quiz'Em All-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66DEA95E2E65C89645C99465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E34C8EB34E5711966E9EA83D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pokemon Quiz'Em All/Pods-Pokemon Quiz'Em All-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E108D7731D8103D200C411A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E108D77D1D8103D200C411A6 /* ViewController.swift in Sources */,
 				E108D77B1D8103D200C411A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +393,7 @@
 		};
 		E108D78A1D8103D300C411A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADDA4A0957E970479EDC526 /* Pods-Pokemon Quiz'Em All.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pokemon Quiz'Em All/Info.plist";
@@ -321,6 +405,7 @@
 		};
 		E108D78B1D8103D300C411A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7570355B987A5953539CC53 /* Pods-Pokemon Quiz'Em All.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pokemon Quiz'Em All/Info.plist";
