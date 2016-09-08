@@ -3,36 +3,134 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="PoplarStd.otf">
+            <string>PoplarStd</string>
+        </mutableArray>
+        <mutableArray key="StencilStd.otf">
+            <string>StencilStd</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pokemon_Quiz_Em_All" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Pokemon_Quiz_Em_All" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="bWM-Qw-p0E"/>
+                        <viewControllerLayoutGuide type="bottom" id="lCK-4g-4mn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmr-k1-bPd">
-                                <rect key="frame" x="56" y="15" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yz7-am-kuK">
+                                <rect key="frame" x="0.0" y="343" width="600" height="7"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="7" id="qBi-8h-qCw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfN-Oz-lMV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="343"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz 'Em All" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcu-bz-fxx">
+                                        <rect key="frame" x="13" y="25" width="58" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="tEX-4q-tMg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIGHSCORE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCE-ow-Otd">
+                                        <rect key="frame" x="261" y="187" width="79" height="20"/>
+                                        <fontDescription key="fontDescription" name="PoplarStd" family="Poplar Std" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="characterWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEN-H7-wLY">
+                                        <rect key="frame" x="287" y="125" width="27" height="42"/>
+                                        <fontDescription key="fontDescription" name="StencilStd" family="Stencil Std" pointSize="42"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2N4-pO-hID">
+                                        <rect key="frame" x="559" y="25" width="21" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="2N4-pO-hID" secondAttribute="height" multiplier="1:1" id="HDq-AD-PBQ"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="Icon_Settings"/>
+                                        <connections>
+                                            <action selector="settingDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D66-xW-uYZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.53333333333333333" green="0.20000000000000001" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="qcu-bz-fxx" firstAttribute="leading" secondItem="rfN-Oz-lMV" secondAttribute="leading" constant="13" id="CbO-Do-2AZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="2N4-pO-hID" secondAttribute="trailing" constant="20" id="Cdi-lh-n95"/>
+                                    <constraint firstItem="uCE-ow-Otd" firstAttribute="centerY" secondItem="rfN-Oz-lMV" secondAttribute="centerY" multiplier="1.15" id="Ibd-HX-H4c"/>
+                                    <constraint firstItem="2N4-pO-hID" firstAttribute="height" secondItem="qcu-bz-fxx" secondAttribute="height" multiplier="1.25" id="NJi-GZ-WTL"/>
+                                    <constraint firstItem="uCE-ow-Otd" firstAttribute="centerX" secondItem="rfN-Oz-lMV" secondAttribute="centerX" id="QVw-Mw-2a7"/>
+                                    <constraint firstItem="KEN-H7-wLY" firstAttribute="centerY" secondItem="rfN-Oz-lMV" secondAttribute="centerY" multiplier="0.85" id="Quz-JI-A25"/>
+                                    <constraint firstItem="2N4-pO-hID" firstAttribute="top" secondItem="rfN-Oz-lMV" secondAttribute="top" constant="25" id="ck6-Mw-yo8"/>
+                                    <constraint firstItem="KEN-H7-wLY" firstAttribute="centerX" secondItem="rfN-Oz-lMV" secondAttribute="centerX" id="t0a-Wg-Xzv"/>
+                                    <constraint firstItem="qcu-bz-fxx" firstAttribute="top" secondItem="rfN-Oz-lMV" secondAttribute="top" constant="25" id="wSo-Xf-o76"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTL-Hd-6NR">
+                                <rect key="frame" x="200" y="243" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vTL-Hd-6NR" secondAttribute="height" multiplier="1:1" id="CN9-z2-skf"/>
+                                </constraints>
+                                <state key="normal" image="Button_Play"/>
+                                <connections>
+                                    <action selector="playDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QyE-33-eHV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © TechKids 2016" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVg-G0-hCa">
+                                <rect key="frame" x="222" y="577" width="156" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Okg-Ay-x43">
-                                <rect key="frame" x="534" y="20" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rfN-Oz-lMV" secondAttribute="trailing" id="1zf-1d-8rW"/>
+                            <constraint firstItem="yz7-am-kuK" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="BFr-fC-daf"/>
+                            <constraint firstItem="vTL-Hd-6NR" firstAttribute="centerY" secondItem="rfN-Oz-lMV" secondAttribute="bottom" id="HBh-OP-pah"/>
+                            <constraint firstItem="rfN-Oz-lMV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="I8Q-6o-tvg"/>
+                            <constraint firstItem="vVg-G0-hCa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LvH-RW-bgr"/>
+                            <constraint firstItem="rfN-Oz-lMV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RPd-4p-gC1"/>
+                            <constraint firstItem="rfN-Oz-lMV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="4:7" id="XTm-Gg-5d8"/>
+                            <constraint firstItem="lCK-4g-4mn" firstAttribute="top" secondItem="vVg-G0-hCa" secondAttribute="bottom" constant="8" id="bve-kz-4Dc"/>
+                            <constraint firstItem="yz7-am-kuK" firstAttribute="top" secondItem="rfN-Oz-lMV" secondAttribute="bottom" id="ggS-Oh-tTM"/>
+                            <constraint firstItem="vTL-Hd-6NR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="koB-em-wBN"/>
+                            <constraint firstItem="yz7-am-kuK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lza-9G-qj8"/>
+                            <constraint firstItem="rfN-Oz-lMV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vsr-6E-3bI"/>
+                            <constraint firstItem="vTL-Hd-6NR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="zZP-xc-mVg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="highScoreLbl" destination="uCE-ow-Otd" id="WwU-zq-kbK"/>
+                        <outlet property="playBtn" destination="vTL-Hd-6NR" id="mPJ-2I-Q0V"/>
+                        <outlet property="scoreLbl" destination="KEN-H7-wLY" id="vmP-SC-GTd"/>
+                        <outlet property="settingBtn" destination="2N4-pO-hID" id="NpH-j0-7Lo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="387" y="309"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Button_Play" width="459" height="458"/>
+        <image name="Icon_Settings" width="100" height="100"/>
+    </resources>
 </document>
